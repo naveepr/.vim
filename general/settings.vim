@@ -63,11 +63,11 @@ set list
 set listchars=tab:>-
 set tw=78
   
-"set t_Co=256
+set t_Co=256
 set background=dark
-if (has("termguicolors"))
-    set termguicolors
-endif
+"if (has("termguicolors"))
+"    set termguicolors
+"endif
 
 " If you would like some of the code to be bolded
 "let g:enable_bold_font = 1
