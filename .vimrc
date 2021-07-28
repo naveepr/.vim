@@ -10,15 +10,16 @@ source $HOME/.vim/plug-config/taglist.vim
 source $HOME/.vim/plug-config/commentary.vim 
 source $HOME/.vim/plug-config/Doxygen.vim
 source $HOME/.vim/plug-config/perforce.vim
-source $HOME/.vim/plug-config/ale.vim
+"source $HOME/.vim/plug-config/ale.vim
 source $HOME/.vim/plug-config/sneak.vim
 source $HOME/.vim/plug-config/quickscope.vim
-source $HOME/.vim/plug-config/vsnip.vim
+"source $HOME/.vim/plug-config/vsnip.vim
 "source $HOME/.vim/plug-config/treesitter.vim
 "source $HOME/.vim/plug-config/telescope.vim
-source $HOME/.vim/plug-config/signify.vim
-source $HOME/.vim/plug-config/languageclient.vim
-source $HOME/.vim/plug-config/asyncomplete.vim
+"source $HOME/.vim/plug-config/signify.vim
+source $HOME/.vim/plug-config/ultisnip.vim
+"source $HOME/.vim/plug-config/languageclient.vim
+"source $HOME/.vim/plug-config/asyncomplete.vim
 "source $HOME/.vim/plug-config/lsp-config.vim
 
 "lua-config
