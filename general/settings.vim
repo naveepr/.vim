@@ -82,6 +82,8 @@ colorscheme gruvbox
 if has("autocmd")
   " In text files, always limit the width of text to 78 characters
   autocmd BufRead *.txt set tw=78
+  autocmd FileType * set formatoptions-=l
+  autocmd FileType * set formatoptions+=t
   " When editing a file, always jump to the last cursor position
   autocmd BufReadPost *
   \ if line("'\"") > 0 && line ("'\"") <= line("$") |
